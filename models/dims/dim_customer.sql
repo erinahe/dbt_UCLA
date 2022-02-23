@@ -27,3 +27,4 @@ JOIN {{ source('mysql_rds_sakila','city') }} ci ON a.city_id = ci.city_id
 JOIN {{ source('mysql_rds_sakila','country') }} co ON ci.country_id = co.country_id 
 
 
+
