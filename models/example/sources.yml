@@ -12,4 +12,7 @@ sources:
       - name: country
       - name: city
       - name: rental
+      - name: film
+      - name: dim_date
+      - name: dim_timeofday
     
